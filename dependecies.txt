@@ -1,0 +1,1 @@
+pip install numpy sounddevice pygame edge-tts mss pyautogui pyperclip pillow openai duckduckgo-search faster-whisper
