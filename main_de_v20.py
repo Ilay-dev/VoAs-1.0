@@ -288,7 +288,7 @@ def get_current_time():
     return datetime.datetime.now().strftime("Es ist %H Uhr %M am %d.%m.%Y.")
 
 def get_weather(location="München"):
-    WEATHER_API_KEY = "758dd1308b128b385184b520c64d3ae3"
+    WEATHER_API_KEY = ""
     if not location or location.lower() in ["hier", "mein ort", "aktueller ort", ""]:
         location = "München"
     try:
